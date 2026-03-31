@@ -1,0 +1,11 @@
+name: First CI/CD
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello
+        run: echo "CI/CD is working!"
